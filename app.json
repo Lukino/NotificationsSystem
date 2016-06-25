@@ -1,0 +1,22 @@
+{
+  "name": "NotificationsSystem",
+  "description": "Notifications System",
+  "scripts": {
+  },
+  "env": {
+    "TYPE": "Production"
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
